@@ -4,7 +4,7 @@ Console.WriteLine("Введите число: ");
 int a = Convert.ToInt32(Console.ReadLine());
 int index = 1;
 int kub = 0;
-while(index<a+1)
+while(index<=a)
 {
     kub =(index*index*index);
     Console.WriteLine(kub);
