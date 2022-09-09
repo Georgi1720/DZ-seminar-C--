@@ -15,8 +15,8 @@ int ReadConsole(int count)
     }
 }
 
-string finish = "'stop'";
-Console.WriteLine($"Для завершения введите слово {finish} ");
+
+Console.WriteLine($"Для завершения введите слово 'stop' ");
 int result = ReadConsole(0);
 
 Console.WriteLine($"Чисел больше 0- {result} шт");
