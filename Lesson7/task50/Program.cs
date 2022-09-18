@@ -5,8 +5,6 @@
 //5 9 2 3
 //8 4 2 4
 //17->такого числа в массиве нет
-
-
 Console.WriteLine("Введите кол-во строк: ");
 int row = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите кол-во столбцов: ");
